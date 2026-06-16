@@ -17,6 +17,12 @@ books.toscrape.com ──scrape──► Pandas DataFrame ──temizle──►
 - `sqlalchemy` + `psycopg2-binary` — veritabanına yazma (Load)
 - **PostgreSQL** — hedef veritabanı
 
+## Kaynaklar
+- [Real Python — requests Library Guide](https://realpython.com/python-requests/) (GET/POST, pagination, rate limit)
+- [Real Python — Beautiful Soup: Build a Web Scraper](https://realpython.com/beautiful-soup-web-scraper-python/)
+- [SQLAlchemy Core Quickstart](https://docs.sqlalchemy.org/en/20/orm/quickstart.html) (`to_sql` ile DataFrame yazma)
+- Güvenli pratik siteleri: [books.toscrape.com](https://books.toscrape.com) · [quotes.toscrape.com](https://quotes.toscrape.com)
+
 ## Kurulum & çalıştırma
 ```bash
 python -m venv .venv
